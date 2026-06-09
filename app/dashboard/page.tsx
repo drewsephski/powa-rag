@@ -76,7 +76,7 @@ export default async function DashboardPage() {
   const leadStats = leads[0] ?? { new: 0, contacted: 0, total: 0 }
 
   return (
-    <div className="space-y-8">
+    <div className="mx-auto w-full max-w-6xl space-y-8 py-6">
       {/* Lead-focused header */}
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">

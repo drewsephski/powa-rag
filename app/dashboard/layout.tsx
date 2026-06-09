@@ -17,7 +17,7 @@ export default async function DashboardLayout({
     <div className="flex h-svh">
       <Sidebar agencyName={session.agencyName} />
       <main className="flex flex-1 flex-col">
-        <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col overflow-auto px-6 py-6">
+        <div className="flex w-full flex-1 flex-col px-6">
           {children}
         </div>
       </main>

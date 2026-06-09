@@ -105,7 +105,7 @@ export default async function BotDetailPage({
   const embedScript = `<script src="${siteUrl}/api/widget/${bot.slug}/script?token=${bot.embed_token}"></script>`
 
   return (
-    <div className="space-y-8">
+    <div className="mx-auto w-full max-w-6xl space-y-8 py-6">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>

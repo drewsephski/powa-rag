@@ -359,7 +359,7 @@ export default function DashboardChatPage() {
 
   // ── Render ──
   return (
-    <div className="flex flex-1 flex-col overflow-hidden">
+    <div className="flex flex-1 flex-col overflow-hidden -mx-6">
       {/* ── Header ── */}
       <div className="flex shrink-0 items-center justify-between border-b px-6 py-3">
         <div className="flex items-center gap-3">
@@ -562,7 +562,7 @@ export default function DashboardChatPage() {
         </div>
 
         {/* ── History Sidebar ── */}
-        <aside className="flex w-72 shrink-0 flex-col border-l bg-muted/20">
+        <aside className="flex w-72 shrink-0 flex-col overflow-y-auto border-l bg-muted/20">
           {/* New Chat button */}
           <div className="border-b p-3">
             <button

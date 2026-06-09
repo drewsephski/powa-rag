@@ -39,7 +39,7 @@ export default function NewBotPage() {
   }
 
   return (
-    <div className="mx-auto max-w-lg space-y-6">
+    <div className="mx-auto max-w-lg space-y-6 py-6">
       <div>
         <Link
           href="/dashboard/bots"
