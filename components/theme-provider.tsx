@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
+import { Toaster } from "sonner"
 
 function ThemeProvider({
   children,
@@ -17,6 +18,14 @@ function ThemeProvider({
     >
       <ThemeHotkey />
       {children}
+      <Toaster
+        position="bottom-right"
+        richColors
+        closeButton
+        toastOptions={{
+          duration: 4000,
+        }}
+      />
     </NextThemesProvider>
   )
 }
